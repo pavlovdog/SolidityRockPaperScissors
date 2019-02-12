@@ -1,0 +1,21 @@
+language: node_js
+sudo: required
+node_js:
+  - "10.13.0"
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - build-essential
+      - g++-4.8
+before_install:
+  - export CXX="g++-4.8"
+  - npm install -g npm@latest
+install:
+  - npm install
+script:
+  - ganache-cli --port 7545 &
+  - truffle test
