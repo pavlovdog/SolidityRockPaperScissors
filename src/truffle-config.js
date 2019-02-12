@@ -6,9 +6,6 @@ module.exports = {
       network_id: "*" // Match any network id
     },
   },
-  mocha: {
-    useColors: true,
-  },
   solc: {
     optimizer: {
       enabled: true,

@@ -1,0 +1,18 @@
+title: Rock, paper & scissors game
+
+User 1 -> Smart contract: Create new game with initializeGame method
+Smart contract --> User 1:
+User 1 -> User 2: Tell the second user the game ID
+User 2 --> User 1:
+User 1 -> Smart contract: Send the necessary amount of Ethers by calling the playGame method
+Smart contract --> User 1:
+User 2 -> Smart contract: Send the necessary amount of Ethers by calling the playGame method
+Smart contract --> User 2:
+Smart contract -> Oraclize: Send the request to the Wolfram Alpha
+Oraclize -> Smart contract: Query ID
+Oraclize -> Smart contract: Call __callback method with Wolfram Alpha response
+Smart contract -> Smart contract: Generate the second player decision
+Smart contract -> User 1: Send the reward to the first player (if necessary)
+User 1 --> Smart contract:
+Smart contract -> User 2: Send the reward to the second player (if necessary)
+User 2 --> Smart contract:

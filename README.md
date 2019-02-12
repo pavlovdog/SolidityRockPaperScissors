@@ -30,9 +30,14 @@ By default, it's the Ethereum account, which has deployed the contract to the ne
 
 ## Sequence diagram
 
+![seq](https://github.com/pavlovdog/SolidityRockPaperScissors/blob/master/images/seq.svg)
+
 ## Run Truffle tests
 
 ```bash
+npm install
+cd src/
+truffle test
 ```
 
 ## Compile source code with solc

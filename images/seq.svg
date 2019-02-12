@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1542.21875" height="664"><style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+svg text {
+  fill: #000;
+  stroke: none;
+  font-size: 12pt;
+  font-family: 'Andale Mono', monospace;
+}
+
+svg :not(text) {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2;
+}
+
+.textbg {
+  fill: #fff;
+  stroke: none;
+}
+
+.rect {
+  fill: #fff;
+}
+
+.signal-solid {
+  stroke-dasharray: 0;
+}
+
+.signal-dotted {
+  stroke-dasharray: 5;
+}
+
+.arrow-filled {
+  marker-end: url(#arrow-filled);
+}
+
+.arrow-open {
+  marker-end: url(#arrow-open);
+}
+</style><defs><marker id="arrow-filled" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 5,2.5 0,5z" style="stroke: none; fill: #000"/></marker><marker id="arrow-open" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 5,2.5 0,5" style="stroke-width: 1"/></marker></defs><rect width="269.640625" height="28" x="10" y="10" class="rect"/><text x="144.8203125" y="24" style="text-anchor: middle; alignment-baseline: central;">Rock, paper &amp; scissors game</text><rect width="77.609375" height="38" x="10" y="48" class="rect"/><text x="48.8046875" y="67" style="text-anchor: middle; alignment-baseline: central;">User 1</text><rect width="77.609375" height="38" x="10" y="606" class="rect"/><text x="48.8046875" y="625" style="text-anchor: middle; alignment-baseline: central;">User 1</text><path d="M48.8046875,86 v520" class="timeline"/><rect width="154.8125" height="38" x="625.1015625" y="48" class="rect"/><text x="702.5078125" y="67" style="text-anchor: middle; alignment-baseline: central;">Smart contract</text><rect width="154.8125" height="38" x="625.1015625" y="606" class="rect"/><text x="702.5078125" y="625" style="text-anchor: middle; alignment-baseline: central;">Smart contract</text><path d="M702.5078125,86 v520" class="timeline"/><rect width="77.609375" height="38" x="1317.40625" y="48" class="rect"/><text x="1356.2109375" y="67" style="text-anchor: middle; alignment-baseline: central;">User 2</text><rect width="77.609375" height="38" x="1317.40625" y="606" class="rect"/><text x="1356.2109375" y="625" style="text-anchor: middle; alignment-baseline: central;">User 2</text><path d="M1356.2109375,86 v520" class="timeline"/><rect width="97.203125" height="38" x="1415.015625" y="48" class="rect"/><text x="1463.6171875" y="67" style="text-anchor: middle; alignment-baseline: central;">Oraclize</text><rect width="97.203125" height="38" x="1415.015625" y="606" class="rect"/><text x="1463.6171875" y="625" style="text-anchor: middle; alignment-baseline: central;">Oraclize</text><path d="M1463.6171875,86 v520" class="timeline"/><rect width="403.265625" height="18" x="174.015625" y="102" class="textbg"/><text x="375.65625" y="111" style="text-anchor: middle; alignment-baseline: central;">Create new game with initializeGame method</text><path d="M48.8046875,124 h653.703125" class="signal-solid arrow-filled"/><rect width="0" height="0" x="0" y="0" class="textbg"/><text x="375.65625" y="149" style="text-anchor: middle; alignment-baseline: central;"/><path d="M702.5078125,144 h-653.703125" class="signal-dotted arrow-filled"/><rect width="308.640625" height="18" x="547.875" y="160" class="textbg"/><text x="702.5078125" y="169" style="text-anchor: middle; alignment-baseline: central;">Tell the second user the game ID</text><path d="M48.8046875,182 h1307.40625" class="signal-solid arrow-filled"/><rect width="0" height="0" x="0" y="0" class="textbg"/><text x="702.5078125" y="207" style="text-anchor: middle; alignment-baseline: central;"/><path d="M1356.2109375,202 h-1307.40625" class="signal-dotted arrow-filled"/><rect width="633.703125" height="18" x="58.796875" y="218" class="textbg"/><text x="375.65625" y="227" style="text-anchor: middle; alignment-baseline: central;">Send the necessary amount of Ethers by calling the playGame method</text><path d="M48.8046875,240 h653.703125" class="signal-solid arrow-filled"/><rect width="0" height="0" x="0" y="0" class="textbg"/><text x="375.65625" y="265" style="text-anchor: middle; alignment-baseline: central;"/><path d="M702.5078125,260 h-653.703125" class="signal-dotted arrow-filled"/><rect width="633.703125" height="18" x="712.5" y="276" class="textbg"/><text x="1029.359375" y="285" style="text-anchor: middle; alignment-baseline: central;">Send the necessary amount of Ethers by calling the playGame method</text><path d="M1356.2109375,298 h-653.703125" class="signal-solid arrow-filled"/><rect width="0" height="0" x="0" y="0" class="textbg"/><text x="1029.359375" y="323" style="text-anchor: middle; alignment-baseline: central;"/><path d="M702.5078125,318 h653.703125" class="signal-dotted arrow-filled"/><rect width="355.65625" height="18" x="905.421875" y="334" class="textbg"/><text x="1083.0625" y="343" style="text-anchor: middle; alignment-baseline: central;">Send the request to the Wolfram Alpha</text><path d="M702.5078125,356 h761.109375" class="signal-solid arrow-filled"/><rect width="77.203125" height="18" x="1044.65625" y="372" class="textbg"/><text x="1083.0625" y="381" style="text-anchor: middle; alignment-baseline: central;">Query ID</text><path d="M1463.6171875,394 h-761.109375" class="signal-solid arrow-filled"/><rect width="480.46875" height="18" x="843.015625" y="410" class="textbg"/><text x="1083.0625" y="419" style="text-anchor: middle; alignment-baseline: central;">Call __callback method with Wolfram Alpha response</text><path d="M1463.6171875,432 h-761.109375" class="signal-solid arrow-filled"/><rect width="336.046875" height="18" x="727.5" y="452" class="textbg"/><text x="895.53125" y="461" style="text-anchor: middle; alignment-baseline: central;">Generate the second player decision</text><path d="M702.5078125,447 h20 v33 h-20" class="signal-solid arrow-filled"/><rect width="480.078125" height="18" x="135.609375" y="486" class="textbg"/><text x="375.65625" y="495" style="text-anchor: middle; alignment-baseline: central;">Send the reward to the first player (if necessary)</text><path d="M702.5078125,508 h-653.703125" class="signal-solid arrow-filled"/><rect width="0" height="0" x="0" y="0" class="textbg"/><text x="375.65625" y="533" style="text-anchor: middle; alignment-baseline: central;"/><path d="M48.8046875,528 h653.703125" class="signal-dotted arrow-filled"/><rect width="489.671875" height="18" x="784.515625" y="544" class="textbg"/><text x="1029.359375" y="553" style="text-anchor: middle; alignment-baseline: central;">Send the reward to the second player (if necessary)</text><path d="M702.5078125,566 h653.703125" class="signal-solid arrow-filled"/><rect width="0" height="0" x="0" y="0" class="textbg"/><text x="1029.359375" y="591" style="text-anchor: middle; alignment-baseline: central;"/><path d="M1356.2109375,586 h-653.703125" class="signal-dotted arrow-filled"/></svg>
